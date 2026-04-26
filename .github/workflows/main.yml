@@ -57,6 +57,7 @@ jobs:
           command: quickview, cves
           only-severities: critical, high
           sarif-file: scout_report.sarif
+          exit-code: true
           image: my-app:latest
 
       - name: Upload Artifact
