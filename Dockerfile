@@ -1,4 +1,5 @@
-FROM python:3.11.0b1-buster
+# Gunakan Bullseye (Debian 11) atau Bookworm (Debian 12)
+FROM python:3.11-slim-bullseye
 
 # set work directory
 WORKDIR /app
